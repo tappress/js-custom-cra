@@ -1,6 +1,6 @@
 {
   "about": {
-    "description": "CHNU Slots Machine is composed of 5 reels (with more thatn 30 symbols each) and 3 rows. It follows the general rules of slot games, i.e, it aims to make the symbols spin and check if you have combinations of 3 or more equal symbols displayed at one of the 9 possible winning lines.",
+    "description": "ІПЗ Slots Machine is composed of 5 reels (with more thatn 30 symbols each) and 3 rows. It follows the general rules of slot games, i.e, it aims to make the symbols spin and check if you have combinations of 3 or more equal symbols displayed at one of the 9 possible winning lines.",
     "specialSymbols": "Special Symbols",
     "explosive": "Explosive",
     "explosiveDescription": "Explosive symbols combined in a line of 3-5 symbols multiply your win amount by 3-5, respectively.",
@@ -21,10 +21,10 @@
   },
   "header": {
     "copiedToClipboard": "Copied to clipboard.",
-    "share": "Share CHNU Slots",
+    "share": "Share ІПЗ Slots",
     "shareError": "It was not possible to share the link",
-    "shareTitle": "Check it out this nerdy CHNU Slots game!!!",
-    "shareText": "This is a link to CHNU Slots game",
+    "shareTitle": "Check it out this nerdy ІПЗ Slots game!!!",
+    "shareText": "This is a link to ІПЗ Slots game",
     "welcome": "Виграйте бали собі на предмети в наступний семестр!!!"
   },
   "footer": {

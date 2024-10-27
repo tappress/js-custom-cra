@@ -8,9 +8,9 @@ exports[`Header renders without errors and matches snapshot 1`] = `
     Виграйте бали собі на предмети в наступний семестр!!!
   </h1>
   <button
-    aria-label="Share JS Slots"
+    aria-label="Share ІПЗ Slots"
     class="button "
-    title="Share JS Slots"
+    title="Share ІПЗ Slots"
   >
     <svg
       viewBox="0 -22 512 511"
