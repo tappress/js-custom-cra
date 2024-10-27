@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/js-slots-cra/static/css/main.a3d1c121.css",
-    "main.js": "/js-slots-cra/static/js/main.7600480f.js",
+    "main.css": "/js-slots-cra/static/css/main.d15b0315.css",
+    "main.js": "/js-slots-cra/static/js/main.d2d629bd.js",
     "static/media/mixkit-retro-arcade-casino-notification-211.wav": "/js-slots-cra/static/media/mixkit-retro-arcade-casino-notification-211.a6251be4db4ddd9c584d.wav",
     "static/media/mixkit-slot-machine-win-alert-1931.wav": "/js-slots-cra/static/media/mixkit-slot-machine-win-alert-1931.6cd1ae7021dc6c8692d7.wav",
     "static/media/01.svg": "/js-slots-cra/static/media/01.14132d0275c6674b250c3cd27ca1eec5.svg",
@@ -20,7 +20,6 @@
     "static/media/WorkSans-Italic.ttf": "/js-slots-cra/static/media/WorkSans-Italic.0189dd75c4a5c973846d.ttf",
     "static/media/00.svg": "/js-slots-cra/static/media/00.232157097b4b7ffc19b9b44f2ca3c76c.svg",
     "static/media/07.svg": "/js-slots-cra/static/media/07.6acb65817293ae579d19b7412ceca545.svg",
-    "static/media/background.svg": "/js-slots-cra/static/media/background.5364798d6e6d3ec21cc3.svg",
     "static/media/04.svg": "/js-slots-cra/static/media/04.666d19de2f40e1686709f47a56d48c2d.svg",
     "static/media/06.svg": "/js-slots-cra/static/media/06.b63e84719a853300a3f737f00be4e5c4.svg",
     "static/media/05.svg": "/js-slots-cra/static/media/05.a36dc60c228f7b6b256f2f52cee7f130.svg",
@@ -28,14 +27,14 @@
     "static/media/03.svg": "/js-slots-cra/static/media/03.4cdbbbe8010a10dbcaa3954b332c7f34.svg",
     "static/media/09.svg": "/js-slots-cra/static/media/09.30823ed229bdf5185b5eb66064b92f03.svg",
     "static/media/mixkit-plastic-bubble-click-1124.wav": "/js-slots-cra/static/media/mixkit-plastic-bubble-click-1124.f490b8904d3591f3bba9.wav",
-    "service-worker.js": "/js-slots-cra/service-worker.js",
     "static/media/08.svg": "/js-slots-cra/static/media/08.fd768be8751e21d83e6b74a374644ac6.svg",
+    "service-worker.js": "/js-slots-cra/service-worker.js",
     "index.html": "/js-slots-cra/index.html",
-    "main.a3d1c121.css.map": "/js-slots-cra/static/css/main.a3d1c121.css.map",
-    "main.7600480f.js.map": "/js-slots-cra/static/js/main.7600480f.js.map"
+    "main.d15b0315.css.map": "/js-slots-cra/static/css/main.d15b0315.css.map",
+    "main.d2d629bd.js.map": "/js-slots-cra/static/js/main.d2d629bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3d1c121.css",
-    "static/js/main.7600480f.js"
+    "static/css/main.d15b0315.css",
+    "static/js/main.d2d629bd.js"
   ]
 }

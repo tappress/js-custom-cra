@@ -82,24 +82,59 @@ button {
   }
 }
 
+.app {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.videoBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.backgroundVideo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mainContent {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.8);
+  
+  &.app--loading {
+    opacity: 0;
+  }
+}
+
+.content {
+  flex-grow: 1;
+}
+
+
 @media only screen and (min-width: $xs) {
   .app {
     font-size: $font-base;
-
-    &:before {
-      content: '';
-      background-image: url('/assets/images/background.svg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0.2;
-      filter: var(--color-filter);
-      -webkit-filter: var(--color-filter);
-    }
   }
 }
+

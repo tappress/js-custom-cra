@@ -27,8 +27,13 @@
   }
 }
 
+.about__symbol img {
+  width: 50px;
+}
+
 @media only screen and (min-width: $xs) {
   .about {
     max-width: 25rem;
   }
 }
+

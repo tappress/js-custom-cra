@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <p>@2022 {t('footer.developedBy', { name: 'Mariana Costa' })}</p>
+      <p>@2024 {t('footer.developedBy', { name: 'ІПЗ Сила' })}</p>
       <div className={styles['footer__links']}>
         {LINKS.map(link => {
           const Icon = link.icon;
