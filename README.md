@@ -1,6 +1,6 @@
 # JS Slot Machine
 
-JS Slot Machine is a Progressive web app with a regular slot machine game that has the logos of main JS-related tools as symbols. Deployed at [https://marianapatcosta.github.io/js-slots-cra](https://marianapatcosta.github.io/js-slots-cra/).
+JS Slot Machine is a Progressive web app with a regular slot machine game that has the logos of main JS-related tools as symbols. Deployed at [https://marianapatcosta.github.io/ipz-slots](https://marianapatcosta.github.io/ipz-slots/).
 ![Group 732](https://user-images.githubusercontent.com/43031902/173261946-f224abab-e06c-4104-abec-93d62f0d3d25.png)
 
 ## Implemented Functionalities
