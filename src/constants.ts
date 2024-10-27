@@ -12,7 +12,7 @@ export const LOCALES_DATA: InputData[] = [
   { value: Locale.EN, caption: 'settings.english' },
 ];
 
-export const JS_SLOTS_URL = 'https://t.me/wolf_schedule_bot';
+export const JS_SLOTS_URL = 'https://chnu-community.ovh/ipz-slots/';
 
 export const LOADING_TIME: number = 3000; // in milliseconds
 

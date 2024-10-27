@@ -7,6 +7,7 @@ const tsLoader = {
   loader: 'ts-loader',
   options: { compilerOptions: { module: 'esnext', noEmit: false } },
 };
+const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
   mode: 'none',
@@ -15,6 +16,7 @@ module.exports = {
   output: {
     filename: 'worker.js',
     path: build,
+    publicPath: isProd ? '/ipz-slots/' : '/', // Set for production or local dev
   },
   resolve: {
     modules: ['node_modules', src],

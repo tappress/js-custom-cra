@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/js-slots-cra/static/css/main.194148a3.css",
-    "main.js": "/js-slots-cra/static/js/main.c675dfd1.js",
+    "main.css": "/js-slots-cra/static/css/main.a3d1c121.css",
+    "main.js": "/js-slots-cra/static/js/main.7600480f.js",
     "static/media/mixkit-retro-arcade-casino-notification-211.wav": "/js-slots-cra/static/media/mixkit-retro-arcade-casino-notification-211.a6251be4db4ddd9c584d.wav",
     "static/media/mixkit-slot-machine-win-alert-1931.wav": "/js-slots-cra/static/media/mixkit-slot-machine-win-alert-1931.6cd1ae7021dc6c8692d7.wav",
     "static/media/01.svg": "/js-slots-cra/static/media/01.14132d0275c6674b250c3cd27ca1eec5.svg",
@@ -31,11 +31,11 @@
     "service-worker.js": "/js-slots-cra/service-worker.js",
     "static/media/08.svg": "/js-slots-cra/static/media/08.fd768be8751e21d83e6b74a374644ac6.svg",
     "index.html": "/js-slots-cra/index.html",
-    "main.194148a3.css.map": "/js-slots-cra/static/css/main.194148a3.css.map",
-    "main.c675dfd1.js.map": "/js-slots-cra/static/js/main.c675dfd1.js.map"
+    "main.a3d1c121.css.map": "/js-slots-cra/static/css/main.a3d1c121.css.map",
+    "main.7600480f.js.map": "/js-slots-cra/static/js/main.7600480f.js.map"
   },
   "entrypoints": [
-    "static/css/main.194148a3.css",
-    "static/js/main.c675dfd1.js"
+    "static/css/main.a3d1c121.css",
+    "static/js/main.7600480f.js"
   ]
 }
