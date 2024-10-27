@@ -1,0 +1,41 @@
+name: Deployment
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install Packages
+        run: yarn install
+      - name: Validate typescript
+        run: yarn validate-ts
+      - name: Run linter
+        run: yarn lint
+      - name: Run unit tests
+        run: yarn test:unit
+        env:
+          FORCE_COLOR: true
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v4
+        with:
+          start: yarn start
+          browser: chrome
+          wait-on: 'http://localhost:3000'
+          headless: true
+      - name: Build app
+        run: yarn build
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
